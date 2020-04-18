@@ -1,0 +1,88 @@
+/* reset CSS */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0 auto;
+	color: #333;
+	background-color: #eaeaea;
+	font-size: 16px;
+	line-height: 1.6;
+	text-size-adjust: 100%;
+	letter-spacing: 0.1em;
+}
+
+#main {
+	background: #fff;
+	padding: 3% 3%;
+}
+.view {
+	display: none;
+}
+.footer {
+	margin-top: 100px;
+}
+
+h1 {
+	margin: 10px 0;
+}
+.sub-text {
+	padding: 5px 10px;
+}
+h2 {
+	font-size: 2rem;
+	margin: 30px 0 30px;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	.footer {
+		margin-top: 20px;
+	}
+	h1 {
+		margin: 5px 0;
+		font-size: 1.5rem;
+	}
+	.sub-text {
+		padding: 5px 0;
+		font-size: 13px;
+	}
+	h2 {
+		font-size: 1.25rem;
+		margin: 10px 0 20px;
+		text-align: center;
+	}
+	.fc-toolbar h2 {
+		font-size: 1.25em;
+		margin: 0;
+	}
+}
+
+/* calendar */
+/* 日曜日 */
+.fc-sun {
+	color: red;
+	background-color: #fff0f0;
+}
+
+/* 土曜日 */
+.fc-sat {
+	color: blue;
+	background-color: #f0f0ff;
+}
